@@ -29,3 +29,8 @@ function isLight(){
 if(isLight()){
     toggleRootClass();
 }
+
+function closeCard(button){
+    const card = button.closest('.card');
+    card.remove();
+}
